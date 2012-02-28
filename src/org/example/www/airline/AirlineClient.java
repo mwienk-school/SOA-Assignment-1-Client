@@ -1,6 +1,7 @@
 package org.example.www.airline;
 
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.math.BigInteger;
@@ -205,7 +206,7 @@ public class AirlineClient extends JFrame {
 			}
 		});
 
-		this.setSize(750, 250);
+		this.setSize(650, 250);
 		this.setVisible(true);
 	}
 }
