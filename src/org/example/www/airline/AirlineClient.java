@@ -32,7 +32,8 @@ public class AirlineClient extends JFrame {
 	// URL
 	private JLabel urlLabel = null;
 	private JTextField urlField = null;
-	private final String defaultUrl = "http://localhost:8085/SOA_-_Assignment_1/services/airline";
+	//private final String defaultUrl = "http://localhost:8085/SOA_-_Assignment_1/services/airline"; //Monitor
+	private final String defaultUrl = "http://localhost:8080/SOA_-_Assignment_1/services/airline";
 	private String url;
 	// Buttons
 	private JButton checkButton = null;
